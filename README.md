@@ -8,3 +8,6 @@ It outputs gates and control voltage due to light differentials.
 Download the PDF from [here](assets/dlopper.pdf)
 
 ![dlopper_paper_circ](assets/dlopper.png)
+
+![dlopper_paper_circ](assets/dlopper_sch.png)
+
