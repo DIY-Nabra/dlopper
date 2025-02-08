@@ -296,7 +296,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 3.81 0.000002 115)
+			(at 3.810001 0.000002 115)
 			(layer "F.SilkS")
 			(uuid "92d04d16-b180-4611-981d-70da37cf1f97")
 			(effects
@@ -2341,7 +2341,7 @@
 		(descr "qnpn from Ciat-Lonbarde Osmond PCB library")
 		(tags "qnpn from Ciat-Lonbarde Osmond PCB library")
 		(property "Reference" "Q2"
-			(at 0.000001 4.445 360)
+			(at 0.000001 4.445 0)
 			(layer "F.Fab")
 			(uuid "810b8de4-406d-422f-8401-d6b4609b9f0b")
 			(effects
@@ -2352,7 +2352,7 @@
 			)
 		)
 		(property "Value" "BC547"
-			(at 0 -3.175 360)
+			(at 0 -3.175 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "72beb042-7f02-4710-a540-db8ad2ee157a")
@@ -2364,7 +2364,7 @@
 			)
 		)
 		(property "Footprint" "diy-nabra:qnpn"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "69616e71-9b78-49df-8b46-ee8b0548210a")
@@ -2376,7 +2376,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "dbd879f0-d438-4d22-af33-ec05b83a21d3")
@@ -2388,7 +2388,7 @@
 			)
 		)
 		(property "Description" "0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a73165f3-4931-4cbc-861d-268d70a81bec")
@@ -4439,7 +4439,7 @@
 		(descr "led from Ciat-Lonbarde Osmond PCB library")
 		(tags "led from Ciat-Lonbarde Osmond PCB library")
 		(property "Reference" "D1"
-			(at 1.269999 3.81 360)
+			(at 1.269999 3.81 0)
 			(layer "F.Fab")
 			(uuid "9292b9a7-93d4-4a23-963e-d17563c3296c")
 			(effects
@@ -4450,7 +4450,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 1.269999 -3.81 360)
+			(at 1.269999 -3.81 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "565dfa91-f759-4a10-84d1-b60ee415ba41")
@@ -4462,7 +4462,7 @@
 			)
 		)
 		(property "Footprint" "diy-nabra:led"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e9921e26-4d57-4c92-91d7-c588d31fe047")
@@ -4474,7 +4474,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c8e62f9b-8a1c-4b7d-915c-fb1939815bb1")
@@ -4486,7 +4486,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e9527038-7ad2-4d7b-9646-b7097e8078c0")
@@ -10228,7 +10228,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 3.810002 0 80)
+			(at 3.810003 0 80)
 			(layer "F.SilkS")
 			(uuid "08eef4de-1289-4950-ba48-b0add4d74d95")
 			(effects
@@ -10649,7 +10649,7 @@
 			(uuid "143e4736-d8e3-473c-b7c0-d479fd4f48f7")
 		)
 		(pad "1" thru_hole circle
-			(at 7.62 0 290)
+			(at 7.62 0.000001 290)
 			(size 1.524 1.524)
 			(drill 0.7112)
 			(layers "*.Cu" "*.Mask")
@@ -10741,7 +10741,7 @@
 		(attr through_hole)
 		(fp_line
 			(start 1.981201 -1.549401)
-			(end 2.2606 -0.762)
+			(end 2.260599 -0.762)
 			(stroke
 				(width 0.254)
 				(type default)
@@ -10750,7 +10750,7 @@
 			(uuid "823d87b1-faac-4136-8976-952fb9d335ba")
 		)
 		(fp_line
-			(start 2.2606 -0.762)
+			(start 2.260599 -0.762)
 			(end 2.616201 0.5588)
 			(stroke
 				(width 0.254)
@@ -25114,14 +25114,6 @@
 		(uuid "23cf4036-d80e-4c6e-ac30-c6850a35e953")
 	)
 	(segment
-		(start 95.885 103.34625)
-		(end 95.885 111.125)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 5)
-		(uuid "2aa38591-9fab-4a32-aa50-99b874aeaf42")
-	)
-	(segment
 		(start 66.04 138.43)
 		(end 61.595 127)
 		(width 0.5)
@@ -25138,20 +25130,20 @@
 		(uuid "35171822-6340-41af-956e-edd85c3ff0db")
 	)
 	(segment
-		(start 95.885 111.125)
-		(end 93.905652 117.366938)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 5)
-		(uuid "4425a35f-1bc2-412e-98e8-6b7bca857cd8")
-	)
-	(segment
 		(start 62.23 107.95)
 		(end 63.528996 102.899127)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 5)
 		(uuid "4fc624bc-ae31-46ee-8f14-0f9d65a34333")
+	)
+	(segment
+		(start 95.885 111.125)
+		(end 93.905652 117.366938)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 5)
+		(uuid "59ea403b-87ed-48cc-9fa8-8a3ecac79478")
 	)
 	(segment
 		(start 95.885 102.71125)
@@ -25266,6 +25258,14 @@
 		(uuid "c62ac56c-a8ea-4358-a998-b00e21792a4b")
 	)
 	(segment
+		(start 95.885 102.71125)
+		(end 95.885 111.125)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 5)
+		(uuid "dd075455-e5a6-45b3-8c54-00ad9f9b8287")
+	)
+	(segment
 		(start 63.528996 102.899127)
 		(end 62.23 100.33)
 		(width 0.5)
@@ -25288,6 +25288,14 @@
 		(layer "F.Cu")
 		(net 5)
 		(uuid "ede8294d-2208-4b1d-9056-2e8a37e7d1bb")
+	)
+	(segment
+		(start 23.378308 102.71125)
+		(end 23.378308 111.125)
+		(width 0.5)
+		(layer "B.Cu")
+		(net 5)
+		(uuid "00ad4a07-583f-4666-b1b2-7df8aa9491ec")
 	)
 	(segment
 		(start 41.947385 146.839077)
@@ -25336,14 +25344,6 @@
 		(layer "B.Cu")
 		(net 5)
 		(uuid "24e3d667-c8b8-42be-b4d8-e819d4001e86")
-	)
-	(segment
-		(start 23.378308 111.125)
-		(end 25.357656 117.366938)
-		(width 0.5)
-		(layer "B.Cu")
-		(net 5)
-		(uuid "2538d67e-58c3-4500-b2b1-355fb9f5350b")
 	)
 	(segment
 		(start 57.033308 107.95)
@@ -25418,12 +25418,12 @@
 		(uuid "6411eb4b-53fd-43bf-9fec-7d80c358dcfd")
 	)
 	(segment
-		(start 23.378308 103.34625)
-		(end 23.378308 111.125)
+		(start 23.378308 111.125)
+		(end 25.357656 117.366938)
 		(width 0.5)
 		(layer "B.Cu")
 		(net 5)
-		(uuid "87fadd80-27e3-49e0-8ee2-09b3748f0e52")
+		(uuid "69157b9c-bb70-4b75-bf4a-ff694f475402")
 	)
 	(segment
 		(start 57.668308 97.79)
